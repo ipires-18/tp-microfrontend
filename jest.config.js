@@ -13,6 +13,8 @@ module.exports = {
   transform: {
     '^.+\\.(ts|tsx)$': 'ts-jest',
     '^.+\\.jsx?$': 'babel-jest',
+    '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$':
+      'jest-transform-stub',
   },
   moduleNameMapper: {
     '^@mf-types/(.*)$': '<rootDir>/@mf-types/$1',
