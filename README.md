@@ -45,7 +45,7 @@ Para configurar o ambiente de desenvolvimento, siga os passos abaixo:
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/workpass-orchestrator-microfront.git
+   https://github.com/ipires-18/tp-microfrontend.git
 
 2. **Instale as dependências:**:
    ```bash
@@ -78,8 +78,8 @@ Para incluir novos microfrontends como remotes, você deve editar o arquivo conf
   export const configFederation = {
     other-files...,
     remotes: {
-      workpass_mf_client: {
-        external: 'workpass_mf_client@http://localhost:2000/mf-manifest.json',
+      name_mf: {
+        external: 'name_mf@http://localhost:2000/mf-manifest.json',
       },
     },
     other-files...,
