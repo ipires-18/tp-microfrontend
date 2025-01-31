@@ -1,0 +1,16 @@
+# Local
+.DS_Store
+*.local
+*.log*
+/@mf-types/
+**/coverage/
+.env
+
+# Dist
+node_modules
+build/
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
